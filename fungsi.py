@@ -14,3 +14,14 @@ s1 = SegiTiga(10,20)
 print(s1.info())
 print(s1.hitung_luas())
 
+#membuat list bangun ruang
+daftar_bangun_ruang = []
+daftar_bangun_ruang.append(p1)
+daftar_bangun_ruang.append(s1)
+print('\n')
+for a in daftar_bangun_ruang:
+    print(a.info())
+    #print(a.test())
+
+
+
